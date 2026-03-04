@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build outputs
+client/dist/
+client/dist-ssr/
+
+# Environment variables (IMPORTANT - don't commit secrets!)
+.env
+.env.local
+.env.*.local
+.env.php
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.sublime-workspace
+*.swp
+*.swo
+
+# Local development
+.phpstorm.meta.php
+php-cs-fixer.cache
+
+# XAMPP specific
+*.pid
